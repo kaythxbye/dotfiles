@@ -1,0 +1,12 @@
+local/vim 8.0.1297-1
+local/vim-airline 0.8-5 (vim-plugins)
+local/vim-airline-themes r1230.793ce66-1 (vim-plugins)
+local/vim-jedi 0.8.0-3 (vim-plugins)
+local/vim-latexsuite 1:1.9.0-2 (vim-plugins)
+local/vim-runtime 8.0.1297-1
+local/vim-smarttabs-git r4.9de63c0-1
+local/vim-sneak-git r293.5cd2642-1
+local/vim-spell-de 20150901-1
+local/vim-spell-en 20150901-1
+local/vim-syntastic 3.8.0-2 (vim-plugins)
+local/vim-systemd 20170410-1
