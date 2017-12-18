@@ -1,0 +1,18 @@
+Connection='wireless'
+Interface=wlp3s0 # ex: wlp3s0
+Security='wpa-configsection'
+Description="eduroam network"
+IP='dhcp'
+TimeoutWPA=30
+WPAConfigSection=(
+    'ssid="eduroam"'
+    'key_mgmt=WPA-EAP'
+    'eap=TLS'
+    'proto=RSN'
+    'pairwise=CCMP'
+    #'group=CCMP'
+    'identity="username@cms.hu-berlin.de"'
+    #'ca_cert="/usr/share/ca-certificates/trust-source/mozilla.trust.crt"'
+    'ca_cert="/usr/share/ca-certificates/trust-source/mozilla.trust.p11-kit"'
+    'private_key="/etc/netctl/certificates/username-eduroam_certificate_nopassword.p12"'
+)
