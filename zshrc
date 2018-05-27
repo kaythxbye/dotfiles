@@ -36,6 +36,7 @@ function bgokular() {
 #custom aliases
 alias debugger288=gdb
 alias less="less -x2"
+alias ip="ip --color"
 
 #activate syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
